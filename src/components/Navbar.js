@@ -64,6 +64,24 @@ const Navbar = () => {
                             Basket
                         </NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink 
+                            className="nav-link" 
+                            to="/memberslist"
+                            activeClassName="active"
+                        >
+                            MembersList
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink 
+                            className="nav-link" 
+                            to="/users"
+                            activeClassName="active"
+                        >
+                            Users
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
         </nav>

@@ -1,7 +1,12 @@
 import React, { useState } from "react";
+import AddItemForm from "../components/AddItemForm";
+
 
 function AddItem() {
 
+    const addItem = (item) => {
+
+      };
 
   return (
     <>
@@ -9,14 +14,8 @@ function AddItem() {
 
     <div id="container" class="container">
         <div class="formContainer">
+            <AddItemForm addItem={addItem} />
             <form id="itemForm">
-                <div>
-                    <input type="hidden" id="itemUid"/>
-                    <label for="itemName">Name</label>
-                    <input type="text" id="itemName" class="input-sm"/>
-                    <label for="itemPrice">Price </label>
-                    <input type="text" id="itemPrice" class="input-sm"/>
-                </div>
                 <div>
                     <button type="button" id="BackBtn" class="btn">BACK</button>
                     <button type="button" id="itemAddBtn" class="btn">ADDitem</button>
