@@ -10,10 +10,6 @@ import {
 } from 'react-router-dom';
 function App() {
 
-  const sayHello = () => {
-    alert("Hello!");
-  };
-
   return (
     <Router>
       <div className="App">

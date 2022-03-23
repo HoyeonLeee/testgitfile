@@ -91,6 +91,8 @@ const MemberForm = ({ addMember }) => {
         resetForm();
       }
     };
+
+    
     return (
     <form onSubmit={onSubmit}>
         <InputField 
